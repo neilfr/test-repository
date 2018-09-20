@@ -4,29 +4,72 @@
 <head>
     <meta charset = "UTF-8">
     <title>My Bio</title>
+
+    <style>
+        h1 {
+            font-size: 32px;
+            color: white;
+            background-color: black;
+            text-align: center;
+            font-family: Arial;
+        }
+        section{
+            background-color: teal;
+            color:black;
+            font-family:Arial;
+        }
+        .leftsection{
+            width: 20%;
+            float: left;
+        }
+        .centersection{
+            width:50%;
+            overflow:hidden;
+            float:left;
+        }
+        .rightsection{
+            width:30%;
+            float: left;
+        }
+        .boldit{
+            font-weight: bold;
+        }
+        li{
+            list-style: none;
+            text-align: center;
+        }
+        .lowersection{
+            background-color:grey;
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <h1>Student Bio</h1>
     </header>
+    
+    <section class = "lowersection">
+        <section class = "leftsection">
+            <h2>Neil Froggatt</h2>
+
+            <img src="nfheadshot.jpg" height=100 width=80>
+
+        </section>
         
-    <section>
-        <h2>Neil Froggatt</h2>
+        <section class = "centersection"|
+            <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </section>
 
-        <img src="nfheadshot.jpg" height=100 width=80>
 
-        <br>
+        <section class = "rightsection">
+            <h2>Contact Info</h2>
 
-        <p>orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <br>
-    </section>
-    <section><h2>Contact Info</h2>
-
-        <ul>
-            <li><strong>email:</strong> <a href="mailto:neilfr@live.com">neilfr@live.com</a></li>
-            <li><strong>github:</strong> <a href="https://github.com/neilfr/test-respository/blob/master/bio.html">neilfr</a></li>
-            <li><strong>Portfolio:</strong> coming soon</li>
-        </ul>
+            <ul>
+                <li>email: <a href="mailto:neilfr@live.com">neilfr@live.com</a></li>
+                <li class="boldit">github: <a href="https://github.com/neilfr/test-respository/blob/master/bio.html">neilfr</a></li>
+                <li class="boldit">Portfolio: coming soon"</li>
+            </ul>
+        </section>
     </section>
 </body>
